@@ -1,0 +1,70 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% LaTeX book template                           %%
+%% Author:  Amber Jain (http://amberj.devio.us/) %%
+%% License: ISC license                          %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% https://tex.stackexchange.com/questions/155867/making-one-pdf-file-from-multiple-pdfs-or-tex
+
+\documentclass[a4paper,11pt,oneside]{book}
+
+% pacotes utilizados
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\usepackage[portuguese]{babel}
+\usepackage{amsfonts}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{amssymb} % alguns simbolos matematicos
+\usepackage{mathrsfs} % letras cursivas
+\usepackage{listings} % coding examples in latex file
+\usepackage{xcolor} % changing colors
+\usepackage{amsthm} % definir estilo do teorema
+\usepackage[hang,flushmargin]{footmisc} % remove footnote's identation
+\usepackage{cancel} % para poder colocar o tracinho de cancelamento
+\usepackage{tikz} % to draw Venn's diagrams and Real line
+\usepackage{subfiles} % to make multi .tex files into one single pdf
+\usepackage{amsmath}
+
+% tirando identação dos paragrafos
+\setlength{\parindent}{0ex}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% First page of book which contains 'stuff' like: %
+%  - Book title, subtitle                         %
+%  - Book author name                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Book's title and subtitle
+\title{\Huge \textbf{Book of Proof} \\ 
+\Large Third Edition \\
+\huge by Richard Hammack}
+
+% Author
+\author{
+\textsc{Resumo e Adaptação por:} \\
+\textsc{Bruno de M. Ruas} e \\ 
+\textsc{Luiz Eduardo de Lima} 
+}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+
+\tableofcontents
+%\listoffigures
+%\listoftables
+
+\mainmatter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                    CONTENTS                     %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\part{Fundamentos}
+
+\chapter{Conjuntos}
+\subfile{chapter01.tex}
+
+\end{document}

@@ -1,10 +1,9 @@
 # Manual TOTVS linha RM
 
 Olá!
-Eu me chamo Bruno Ruas e trabalho em uma clínica que optou pela migração de ERP para a solução ofertada pela TOTVS para esse mercado. O sistema usado é o TOTVS linha RM Saúde.
 
-O sistema é robusto e possui algumas funcionalidades interessantes, entretanto, a documentação de referência é relativamente pobre e o acesso as informações é muito pulverizado ao longo da internet.
+Esse manual é o esforço conjunto para a construção de um manual coerente e completo sobre a solução ofertada pela TOTVS chamada RM Saúde que é um ERP voltado para hospitais e clínicas.
 
-A criação desse repositório é tornar mais fácil o acesso aos conceitos lógicos e ferramentas que podem ser usadas para melhorar a adaptação do referido sistema à realidade de cada clínica ou hospital.
+O referido sistema é robusto e possui uma série de soluções que podem ser amplamente exploradas para uma customização avançada para cada caso real de aplicação. Entretanto, a informação sobre o sistema é escassa e disconecta. Essa iniciativa é justamente a proposta da solução desse problema.
 
-Caso saiba de alguma informação que possa ser acrescentada ao manual, por favor, entre em contato através das issues do github para, juntos, construirmos o melhor manual de referência do sistema totvs linha RM saúde.
+A meta é construir o melhor manual sobre esse sistema disponível em língua portuguesa.
